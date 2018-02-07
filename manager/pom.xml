@@ -17,7 +17,7 @@
         <module>pojo</module>
         <module>interface</module>
         <module>service</module>
-        <module>web</module>
+        <!--<module>web</module>-->
     </modules>
 
     <!-- 配置tomcat插件 -->

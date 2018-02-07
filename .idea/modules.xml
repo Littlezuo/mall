@@ -9,7 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/pojo/pojo.iml" filepath="$PROJECT_DIR$/manager/pojo/pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/service/service.iml" filepath="$PROJECT_DIR$/manager/service/service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/manager/web/web.iml" filepath="$PROJECT_DIR$/manager/web/web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>
 </project>
