@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import cn.e3mall.common.pojo.EasyUIDataGridResult;
 import cn.e3mall.pojo.TbItem;
 import cn.e3mall.service.ItemService;
 
@@ -13,20 +14,29 @@ import cn.e3mall.service.ItemService;
  * 商品管理Controller
  * <p>Title: ItemController</p>
  * <p>Description: </p>
- * <p>Company: www.itcast.cn</p> 
+ * <p>Company: www.itcast.cn</p>
+ *
  * @version 1.0
  */
 @Controller
 public class ItemController {
 
-	@Autowired
-	private ItemService itemService;
-    @ResponseBody
-//	@RequestMapping(value="/item/{itemId}")
-	@RequestMapping("/item/{itemId}")
-	public TbItem getItemById(@PathVariable long itemId) {
-		TbItem tbItem = itemService.getItemById(itemId);
-		return tbItem;
+    @Autowired
+    private ItemService itemService;
 
-	}
+    @ResponseBody
+    //	@RequestMapping(value="/item/{itemId}")
+    @RequestMapping("/item/{itemId}")
+    public TbItem getItemById(@PathVariable long itemId) {
+        TbItem tbItem = itemService.getItemById(itemId);
+        return tbItem;
+
+    }
+
+    @RequestMapping("item/list")
+    @ResponseBody
+    public EasyUIDataGridResult getItemList(Integer page, Integer rows) {
+        EasyUIDataGridResult itemList = itemService.getItemList(page, rows);
+        return itemList;
+    }
 }

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/manager/dao/dao.iml" filepath="$PROJECT_DIR$/manager/dao/dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/interface/interface.iml" filepath="$PROJECT_DIR$/manager/interface/interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/manager.iml" filepath="$PROJECT_DIR$/manager/manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagehelper/pagehelper.iml" filepath="$PROJECT_DIR$/pagehelper/pagehelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/pojo/pojo.iml" filepath="$PROJECT_DIR$/manager/pojo/pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/service/service.iml" filepath="$PROJECT_DIR$/manager/service/service.iml" />

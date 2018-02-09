@@ -9,6 +9,7 @@
         <module name="common" />
         <module name="dao" />
         <module name="interface" />
+        <module name="pagehelper" />
         <module name="pojo" />
         <module name="service" />
         <module name="web" />
@@ -19,6 +20,13 @@
       <module name="dao" target="1.7" />
       <module name="interface" target="1.7" />
       <module name="manager" target="1.7" />
+      <module name="maven-archiver" target="1.5" />
+      <module name="pagehelper" target="1.7" />
+      <module name="pagehelper (1)" target="1.5" />
+      <module name="pagehelper (2)" target="1.5" />
+      <module name="pagehelper (2) (com.github.pagehelper)" target="1.7" />
+      <module name="pagehelper (3)" target="1.5" />
+      <module name="pagehelper (3) (com.github.pagehelper)" target="1.7" />
       <module name="parent" target="1.7" />
       <module name="pojo" target="1.7" />
       <module name="service" target="1.7" />
