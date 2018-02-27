@@ -13,6 +13,9 @@
           <element id="archive" name="pojo-1.0-SNAPSHOT.jar">
             <element id="module-output" name="pojo" />
           </element>
+          <element id="archive" name="content-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="content-interface" />
+          </element>
           <element id="archive" name="common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="common" />
           </element>

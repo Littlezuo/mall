@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/content/content-service" />
     <file type="web" url="file://$PROJECT_DIR$/manager/service" />
     <file type="web" url="file://$PROJECT_DIR$/manager/web" />
+    <file type="web" url="file://$PROJECT_DIR$/portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/web" />
   </component>
   <component name="MavenProjectsManager">
@@ -16,6 +18,7 @@
         <option value="$PROJECT_DIR$/pagehelper/target/classes/META-INF/maven/com.github.pagehelper/pagehelper/pom.properties" />
         <option value="$PROJECT_DIR$/pagehelper/target/maven-archiver/pom.properties" />
         <option value="$PROJECT_DIR$/pagehelper/pom.xml" />
+        <option value="$PROJECT_DIR$/content/pom.xml" />
       </list>
     </option>
   </component>
