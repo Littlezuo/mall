@@ -1,26 +1,19 @@
-package cn.e3mall.search.controller;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-
-import cn.e3mall.common.utils.E3Result;
-import cn.e3mall.search.service.SearchItemService;
+package cn.e3mall.controller;
 
 /**
  * Created by Littlezuo on 2018/3/8.
  */
-@Controller
-public class SearchItemController {
-    @Autowired
-    private SearchItemService searchItemService;
+//
+//@Controller
+//public class SearchItemController {
 
-    @RequestMapping("/index/item/import")
-    @ResponseBody
-    public E3Result importItemList() {
-        E3Result e3Result = searchItemService.importAllItems();
-        return e3Result;
-
-    }
-}
+//    @Autowired
+//    private SearchItemService searchItemService;
+//
+//    @RequestMapping("/index/item/import")
+//    @ResponseBody
+//    public E3Result importItemList() {
+//        E3Result e3Result = searchItemService.importAllItems();
+//        return e3Result;
+//    }
+//}

@@ -4,20 +4,29 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;
 
+import javax.annotation.Resource;
+import javax.jms.Destination;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
+import javax.jms.TextMessage;
+
 import cn.e3mall.common.pojo.EasyUIDataGridResult;
 import cn.e3mall.common.utils.E3Result;
 import cn.e3mall.common.utils.IDUtils;
 import cn.e3mall.mapper.TbItemDescMapper;
-import cn.e3mall.pojo.TbItemDesc;
-import cn.e3mall.service.ItemService;
 import cn.e3mall.mapper.TbItemMapper;
 import cn.e3mall.pojo.TbItem;
+import cn.e3mall.pojo.TbItemDesc;
 import cn.e3mall.pojo.TbItemExample;
+import cn.e3mall.service.ItemService;
 
 /**
  * 商品管理Service
@@ -29,7 +38,10 @@ import cn.e3mall.pojo.TbItemExample;
  */
 @Service
 public class ItemServiceImpl implements ItemService {
-
+    @Autowired
+    private JmsTemplate jmsTemplate;
+    @Resource
+    private Destination queueDestination;
     @Autowired
     private TbItemMapper itemMapper;
 
@@ -68,6 +80,15 @@ public class ItemServiceImpl implements ItemService {
 
     @Override
     public E3Result addItem(TbItem item, String desc) {
+        //发送商品添加消息
+        jmsTemplate.send(queueDestination, new MessageCreator() {
+
+            @Override
+            public Message createMessage(Session session) throws JMSException {
+                TextMessage textMessage = session.createTextMessage("hello world " + "");
+                return textMessage;
+            }
+        });
         //生成商品id
         long itemId = IDUtils.genItemId();
         //补全item的属性

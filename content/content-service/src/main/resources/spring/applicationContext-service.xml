@@ -27,5 +27,7 @@
     <!--<dubbo:service interface="cn.e3mall.service.ItemCatService" ref="itemCatServiceImpl" timeout="600000"/>-->
     <dubbo:service interface="cn.e3mall.content.service.ContentCategoryService"
                    ref="contentCategoryServiceImpl" timeout="600000"/>
+    <dubbo:service interface="cn.e3mall.content.service.ContentService"
+                   ref="contentServiceImpl" timeout="600000"/>
 
 </beans>

@@ -17,12 +17,12 @@ import cn.e3mall.service.ItemCatService;
 @Controller
 public class ItemCatController {
     @Autowired
-    private ItemCatService mItemCatService;
+    private ItemCatService itemCatService;
 
     @RequestMapping("/item/cat/list")
     @ResponseBody
     public List<EasyUITreeNode> getItemCatList(@RequestParam(name = "id", defaultValue = "0") Long parentId) {
-        List<EasyUITreeNode> itemCatlist = mItemCatService.getItemCatlist(parentId);
+        List<EasyUITreeNode> itemCatlist = itemCatService.getItemCatlist(parentId);
         return itemCatlist;
     }
 }

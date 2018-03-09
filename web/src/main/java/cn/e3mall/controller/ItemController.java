@@ -51,6 +51,7 @@ public class ItemController {
         E3Result result = itemService.addItem(item, des);
         return result;
     }
+
     /**
      * 商品编辑功能
      */

@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/content" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/content/content-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/content/content-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/item-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/manager" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/manager/dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/manager/interface" charset="UTF-8" />
@@ -12,6 +13,15 @@
     <file url="file://$PROJECT_DIR$/manager/service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/search-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/search-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/search/search-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/search/search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso/sso-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso/sso-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web" charset="UTF-8" />
   </component>
 </project>

@@ -9,13 +9,24 @@
       <module fileurl="file://$PROJECT_DIR$/content/contentinterface.iml" filepath="$PROJECT_DIR$/content/contentinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/dao/dao.iml" filepath="$PROJECT_DIR$/manager/dao/dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/interface/interface.iml" filepath="$PROJECT_DIR$/manager/interface/interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-web/item-web.iml" filepath="$PROJECT_DIR$/item-web/item-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/manager.iml" filepath="$PROJECT_DIR$/manager/manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelper/pagehelper.iml" filepath="$PROJECT_DIR$/pagehelper/pagehelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/pojo/pojo.iml" filepath="$PROJECT_DIR$/manager/pojo/pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/portal-web/portal-web.iml" filepath="$PROJECT_DIR$/portal-web/portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search/search.iml" filepath="$PROJECT_DIR$/search/search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search/search-interface/search-interface.iml" filepath="$PROJECT_DIR$/search/search-interface/search-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search/search-service/search-service.iml" filepath="$PROJECT_DIR$/search/search-service/search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search-web/search-web.iml" filepath="$PROJECT_DIR$/search-web/search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search-web/searchweb.iml" filepath="$PROJECT_DIR$/search-web/searchweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/service/service.iml" filepath="$PROJECT_DIR$/manager/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso/sso.iml" filepath="$PROJECT_DIR$/sso/sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso/sso-interface/sso-interface.iml" filepath="$PROJECT_DIR$/sso/sso-interface/sso-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso/sso-service/sso-service.iml" filepath="$PROJECT_DIR$/sso/sso-service/sso-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-web/sso-web.iml" filepath="$PROJECT_DIR$/sso-web/sso-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search-web/web (1).iml" filepath="$PROJECT_DIR$/search-web/web (1).iml" />
     </modules>
   </component>
 </project>

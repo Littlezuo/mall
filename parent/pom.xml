@@ -10,6 +10,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>../portal-web</module>
+        <module>../search-web</module>
+        <module>../search</module>
+        <module>../search-web</module>
+        <module>../item-web</module>
+        <module>../sso</module>
+        <module>../sso-web</module>
     </modules>
 
     <!-- 集中定义依赖版本号 -->
